@@ -1,0 +1,539 @@
+.socials-0121 {
+     background-color: #000c4c;
+     padding: 80px 0;
+}
+
+.socials-0121 .social-ul {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     align-content: center;
+     justify-content: space-between;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+
+}
+
+.socials-0121 .social-ul li {
+     flex: 0 0 12%;
+     max-width: 12%;
+     background-color: #01126b;
+     padding: 12px;
+     border-radius: 12px;
+     list-style-type: none;
+
+}
+
+.socials-0121 .social-ul li:hover {
+     box-shadow: 0 0 20px 0 rgba(255, 255, 255, 25%);
+}
+
+
+/* section 02 */
+.section-0122 {
+     padding: 50px 0 80px;
+     background-color: #000c4c;
+     color: #fff
+}
+
+.section-0122 .why-box-wrap {
+     background-color: #051a85;
+     padding: 40px 20px;
+     border-radius: 12px;
+     border-bottom: 8px solid #eeac46;
+     transition: 0.3s ease-in-out;
+     cursor: pointer;
+     text-transform: capitalize;
+
+}
+
+.section-0122 .why-box-wrap:hover {
+     transform: translateY(-25px);
+     transition: 0.3s ease-in-out;
+     cursor: pointer;
+}
+
+.section-012 .why-title span {
+     color: #eeac46;
+     font-weight: 400;
+     display: block;
+}
+
+
+.section-012 .why-txt {
+     color: #fff;
+     font-size: 14px;
+     line-height: 1.6;
+
+}
+
+.section-0122 .why-box-wrap .why-title {
+     font-size: 24px;
+     font-weight: 700;
+     color: #fff;
+     line-height: 1.4;
+}
+
+.section-0122 .why-box-wrap .why-title .color-title {
+     color: #eeac46;
+     font-weight: 400;
+     display: block;
+}
+
+.why-box-wrap-yellow .why-title {
+     color: #051a85 !important;
+
+}
+
+.section-0122 .why-box-wrap-yellow .btn.why-btn {
+     background-color: #000c4c;
+     border-color: #000c4c;
+     box-shadow: 0 0 29px 7px rgba(0, 12, 76, 40%);
+     color: #fff;
+
+}
+
+.section-0122 .why-btn {
+     background-color: #ffa600;
+     border-color: #ffa600;
+     color: #fff;
+     font-size: 12px;
+     font-weight: 400;
+     box-shadow: 0 0 29px 7px rgba(255, 166, 0, 40%);
+     display: block;
+     width: max-content;
+     margin-left: auto;
+     margin-top: 30px;
+}
+
+.section-0122 .why-btn:hover {
+     color: #fff;
+}
+
+.section-0122 .why-box-wrap-yellow {
+     background-color: #ffa600;
+     border-bottom-color: #fff;
+}
+
+.section-0122 .why-txt {
+     color: #fff;
+     font-size: 14px;
+     line-height: 1.6;
+}
+
+/* this is third section  */
+
+.section-0123 {
+     padding: 80px 0;
+     background-image: url("https://res.cloudinary.com/sol-0123456789/image/upload/v1661330287/sol_0129302930/images/Bg4hi3X_ywr5jb.png");
+     background-position: center;
+     background-size: cover;
+ }
+
+
+ .section-0123  .title {
+     font-size: 70px;
+     font-weight: 700;
+     color: #fff;
+     line-height: 1.4;
+   }
+   .section-0123 .txt {
+     color: #fff;
+     font-size: 18px;
+     line-height: 1.4;
+   }
+
+   .section-0123 .container-fluid .col-sm-12 {
+     padding-left: 0;
+     padding-right: 0;
+   }
+
+  
+
+   .section-0123 .nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 65px;
+    border: 0;
+}
+
+.section-0123 .nav-tabs .nav-item a .tab-icon {
+     width: 30px;
+     height: 30px;
+     display: inline-flex;
+     background-color: #fff;
+     border-radius: 100px;
+     color: #ffa600;
+     align-items: center;
+     align-content: center;
+     justify-content: center;
+     font-size: 16px;
+     box-shadow: 0 10px 10px 1px rgb(0 0 0 / 75%);
+     margin-right: 2px;
+ }
+
+.section-0123 .nav-tabs {
+    margin: 70px 0;
+}
+.section-0123 .tab-content {
+     padding-top: 50px;
+ }
+.section-0123 .nav-tabs .nav-item {
+     background-color: #000c4c;
+     flex: 0 0 12%;
+     max-width: 12%;
+     border-radius: 5px;
+     
+ }
+
+ .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+     color: #fff;
+     background-color:#ffa600 ;
+border-radius: 5px;
+     border-bottom-color: transparent;
+     cursor: default;
+     outline: none;
+     border: none;
+ }
+ .section-0123 .nav-tabs .nav-item a {
+     text-align: center;
+     font-size: 16px;
+     font-weight: 700;
+     color: #fff;
+     padding: 12px;
+   }
+
+   .section-0123 .nav-tabs .nav-item a:hover {
+     background-color: #ffa600;
+     color: #fff;
+     outline: none;
+     border-radius: 5px;
+     border: none;
+   }
+   .section-0123 .nav-tabs .nav-item a:hover .tab-icon, .section-0123s .nav-tabs .nav-item a.active .tab-icon {
+     color: #000c4c;
+   }
+   .section-0123 .nav-tabs {
+     border-bottom: none;
+    
+ }
+
+ .section-0123 .tab-content .tab-pane img, .offer-img-wrap img, .sider-image {
+     animation: float 3s ease infinite;
+ }
+ .section-0123 .img-responsive {
+    
+     display: block;
+max-width: 100%;
+height: auto;
+
+ }
+@keyframes float {
+     
+ 0%, 50% {
+     transform: translateY(0);
+     animation-timing-function: cubic-bezier(.2,.25,.55,1);
+ }
+ 25% {
+     transform: translateY(-7px);
+     animation-timing-function: cubic-bezier(.45,0,.8,.75);
+ }
+ 75% {
+     transform: translateY(7px);
+     animation-timing-function: cubic-bezier(.45,0,.8,.75);
+ }
+ 100% {
+     transform: translateY(0);
+ }
+}
+ .section-0123  .tab-content .btn-icon {
+     border-color: #000c4c;
+     border-radius: 12px;
+     font-size: 14px;
+     font-weight: 400;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-top: 50px;
+     align-content: center;
+     width: max-content;
+     box-shadow: 0 0 29px 7px rgb(255 166 0 / 40%);
+     color: #fff;
+ }
+
+ .section-0123 .btn.btn-secondary.btn-icon {
+     border-color: #000c4c;
+     border-radius: 12px;
+     font-size: 14px;
+     font-weight: 400;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-top: 50px;
+     align-content: center;
+     width: max-content;
+     box-shadow: 0 0 29px 7px rgb(255 166 0 / 40%);
+  
+ }
+
+  .section-0123 .btn.btn-secondary {
+     font-size: 18px;
+     font-weight: 700;
+     color: #fff;
+     background-color: #000c4c;
+     border-color: #ffa600;
+     border-radius: 100px;
+     min-width: 150px;
+     padding: 15px 15px;
+ }
+
+.section-0123 .btn-icon .fa-arrow-circle-right{
+
+ }
+
+.sign-up{
+margin-left: 20px;
+color: #ffa600;
+}
+.sign-up i{
+     background: rgb(233, 229, 229);
+     transition: all 0.6s ease;
+}
+
+.fa-arrow-circle-right:before {
+     content: "\f0a9";
+     background: #fffffe;
+     border-radius: 10px;
+     padding: 2px;
+ }
+
+ .btn-icon:hover
+  .sign-up{
+     transform: rotateZ(-180deg);
+     transition: all 0.6s ease;
+ }
+
+
+ /* this is fouth section */
+ 
+
+
+ .section-0124 {
+    background-color: #051a85;
+    padding: 80px 0;
+}
+  .section-0124 .offer-img-wrap img {
+     position: relative;
+     left: -230px;
+ }
+
+ .section-0124  .title {
+     font-size: 60px;
+ }
+ .section-0124 .title {
+     font-size: 70px;
+     font-weight: 700;
+     color: #fff;
+     line-height: 1.4;
+ }
+
+ .section-0124   .txt {
+     color: #fff;
+     font-size: 18px;
+     line-height: 1.4;
+ }
+
+ 
+ .section-0124  .btn.btn-secondary.btn-icon {
+     background-color: #ffa600;
+     border-color: #ffa600;
+ }
+
+ .section-0124  .btn.btn-secondary.btn-icon {
+  
+   margin-top: 20px;
+   border-radius: 8px;
+     box-shadow: 0 0 29px 7px rgb(255 166 0 / 40%);
+ }
+ .section-0124  .btn.btn-secondary.btn-icon:hover{
+     color: #fff;
+ } 
+.section-0124 .fa-arrow-circle-right:before {
+     content: "\f0a9";
+     background-color: #ffffff;
+     color: #000c4c;
+   
+     
+ }
+.view-source{
+     border-radius: 15px;
+     background-color: #fff;
+     transition: all 0.5s ease;
+}
+.section-0124 .btn-view:hover .fa-arrow-circle-right{
+     transform: rotateZ(180deg);
+     transition: all 0.5s ease;
+}
+
+
+/* this is fifth section */
+
+
+
+.section-0125 {
+    padding: 80px 0;
+    background-color: #051a85;
+    position: relative;
+}
+
+.section-0125 .title {
+     font-size: 70px;
+     font-weight: 700;
+     color: #fff;
+     line-height: 1.4;
+ }
+
+ .section-0125 .customer-wrap {
+     background-color: #ffffff;
+     padding: 20px 15px;
+     border-radius: 12px;
+     min-height: 395px;
+     z-index: 1;
+ }
+
+ .section-0125  .customer-title {
+     font-size: 25px;
+     font-weight: 700;
+     color: #000c4c;
+ }
+
+ .section-0125  .customer-txt {
+     font-weight: 500;
+     font-style: italic;
+     color: #676767;
+     font-size: 14px;
+     line-height: 30px;
+ }
+ .section-0125 .customer-head {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     align-content: center;
+     margin-bottom: 20px;
+ }
+ .section-0125 .profile-pic {
+     box-shadow: 0px 6px 20px 0 rgb(0 0 0 / 30%), inset 12px 0 10px 5px rgb(0 0 0 / 98%);
+     border-radius: 100px;
+ }
+ .section-0125  .stars {
+     margin-left: 20px;
+ }
+
+.section-0125::after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     height: 290px;
+     background-color: #000c4c;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     margin: auto;
+     z-index: -1;
+ }
+
+ .section-0125 .customer-wrap.border {
+     box-shadow: 0 0 0 4px #ffa600;
+ }
+
+/* this is sixth section */
+
+.section-0126 {
+     padding: 80px 0;
+     background-color: #000c4c;
+     overflow: hidden;
+ }
+
+ .section-0126  .reseler-slider .title {
+     font-size: 60px;
+ }
+
+
+ .section-0126  .slick-slide {
+     display: none;
+     float: left;
+     height: 100%;
+     min-height: 1px;
+ }
+
+
+ .section-0126 .slick-initialized .slick-slide {
+     display: block;
+ }
+
+
+/* 
+this is the sevent section */
+
+
+.section-0127 {
+    padding: 80px 0;
+    background-color: #051a85;
+}
+
+.section-0127 .title {
+     text-align: center;
+ }
+ 
+ .section-0127  .title {
+     font-size: 70px;
+     font-weight: 700;
+     color: #fff;
+     line-height: 1.4;
+ }
+
+ .section-0127 .panel-heading a {
+     padding: 20px 45px 20px 20px;
+     display: block;
+     font-size: 18px;
+     font-weight: 600;
+     color: #071648;
+     line-height: 1.4;
+     text-shadow: none;
+     position: relative;
+   
+ }
+ 
+ 
+
+
+
+
+ /* the responsive layouts of web  */
+ @media (max-width:576px) {
+  
+    .section-0123 .img-responsive{
+margin-top: 50px;
+    }
+    .section-0123 .nav-tabs {
+     display: flex;
+flex-wrap: wrap;
+
+
+ }
+.nav-item{
+  margin-top: 20px;
+  width:50vw;
+}
+
+.nav-item .nav-link{
+
+     
+   }
+ }
+
+
