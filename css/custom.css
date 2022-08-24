@@ -120,6 +120,7 @@
      color: #fff;
      font-size: 14px;
      line-height: 1.6;
+     font-weight: 100;
 }
 
 /* this is third section  */
@@ -327,8 +328,8 @@ color: #ffa600;
     padding: 80px 0;
 }
   .section-0124 .offer-img-wrap img {
-     position: relative;
-     left: -230px;
+  
+     width: 100%;
  }
 
  .section-0124  .title {
@@ -345,6 +346,7 @@ color: #ffa600;
      color: #fff;
      font-size: 18px;
      line-height: 1.4;
+     font-weight: 100;
  }
 
  
@@ -353,13 +355,15 @@ color: #ffa600;
      border-color: #ffa600;
  }
 
- .section-0124  .btn.btn-secondary.btn-icon {
-  
+ .section-0124  .btn-view {
+    background-color: #ffa600;
+    border-color: #ffa600;
+  color: #fff;
    margin-top: 20px;
    border-radius: 8px;
      box-shadow: 0 0 29px 7px rgb(255 166 0 / 40%);
  }
- .section-0124  .btn.btn-secondary.btn-icon:hover{
+ .section-0124  .btn-view:hover{
      color: #fff;
  } 
 .section-0124 .fa-arrow-circle-right:before {
@@ -374,9 +378,8 @@ color: #ffa600;
      background-color: #fff;
      transition: all 0.5s ease;
 }
-.section-0124 .btn-view:hover .fa-arrow-circle-right{
-     transform: rotateZ(180deg);
-     transition: all 0.5s ease;
+.section-0124 .btn-view:hover{
+
 }
 
 
@@ -395,6 +398,7 @@ color: #ffa600;
      font-weight: 700;
      color: #fff;
      line-height: 1.4;
+     margin: 10px;
  }
 
  .section-0125 .customer-wrap {
@@ -403,6 +407,8 @@ color: #ffa600;
      border-radius: 12px;
      min-height: 395px;
      z-index: 1;
+     margin-top: 20px;
+   
  }
 
  .section-0125  .customer-title {
@@ -505,35 +511,190 @@ this is the sevent section */
      line-height: 1.4;
      text-shadow: none;
      position: relative;
+
    
  }
- 
- 
-
-
-
-
- /* the responsive layouts of web  */
- @media (max-width:576px) {
-  
-    .section-0123 .img-responsive{
-margin-top: 50px;
-    }
-    .section-0123 .nav-tabs {
-     display: flex;
-flex-wrap: wrap;
-
-
+ .section-0127 .panel-heading a:hover {
+text-decoration: underline;
  }
-.nav-item{
-  margin-top: 20px;
-  width:50vw;
+ .section-0127 .panel-default>.panel-heading {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 15px;
+    position: relative;
+    border-radius: 50px;
+    background-color:rgb(83, 38, 38);
+    border: none;
+
 }
 
-.nav-item .nav-link{
+.section-0127 .panel-default>.panel-heading ::-moz-focus-inner{
+    background-color: #ffa600;
+}
+.section-0127  .panel-heading {
+    padding: 10px 15px;
+    border-bottom: none;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+  
+    margin-top: 20px;
+}
 
-     
-   }
+.section-0127  .panel-body {
+    padding: 25px;
+}
+.section-0127 .panel {
+
+ 
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
+
+
+    border-bottom: none;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px solid transparent;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 1px solid transparent;
+}
+ /* the responsive layouts of web  */
+ @media (min-width:992px) {
+    .section-0124 .offer-img-wrap img {
+   
+        position: relative;
+        left: -230px;
+      
+      
+    }
+
+ }
+
+ @media (min-width:576px) {
+    .section-0124 .title {
+        font-size: 38px;
+        margin-top: 15px;
+    }
+ }
+ @media (max-width:576px) {
+  
+/* first-section */
+.section-0121 .social-ul {
+    justify-content: center;
+}
+.section-0121 .social-ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social-ul li {
+  
+    max-width: 30%;
+    margin: 20px;
+}
+
+/* first-section */
+
+
+/* second-section */
+.section-0122 .why-box-wrap {
+  margin-top: 30px;
+
+}
+.section-0122  .why-txt {
+    font-weight: 100;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* second-section */
+
+
+.section-0123 .nav-tabs {
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.section-0123 .nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+  
+width: 800px;
+position: relative;
+right: 4rem;
+   
+}
+.section-0123 .nav-tabs .nav-item{
+    margin: 15px;
+   max-width: 35vw;
+text-align: center;
+
+}
+.section-0123 .nav-tabs .nav-item .nav-link{
+font-size: 10px;
+padding: 20px;
+
+}
+
+.section-0123 .nav-tabs {
+    margin: 70px;
+    max-width: 100%;
+    padding: 0px;
+
+}
+.section-0123 .nav-tabs .nav-item .nav-link{
+    padding: 20px;
+    width: 100%;
+
+}
+.section-0123 .nav-tabs .nav-item a {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+ 
+}
+
+/* fourth-section */
+
+
+.section-0124 .offer-img-wrap img {
+   
+    position: relative;
+    left: 1px;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 20px;
+    width: 100%;
+}
+.section-0124 .title {
+    font-size: 34px;
+    margin-top: 15px;
+}
+
+/* fifth-section */
+.section-0125 .title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.4;
+}
+.section-0125 .customer-wrap {
+
+    margin-top: 20px;
+}
+
  }
 
 
