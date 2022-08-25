@@ -1,0 +1,18 @@
+   <div class="row text-center ">
+                    <li class="single-payment">
+                         <div class="col-xl-4 col-lg-4 col-md-4  w-100">
+                         <img class="img-responsive" src="https://res.cloudinary.com/sol-0123456789/image/upload/v1661410527/sol_0129302930/images/GtJDAK0_ervtc8.png" alt="Smmpakpanel.com">
+                         </div>
+                    </li>
+                    <li class="single-payment">
+                         <div class="col-xl-4 col-lg-4 col-md-4  w-100">
+                         <img class="img-responsive" src="https://res.cloudinary.com/sol-0123456789/image/upload/v1661410549/sol_0129302930/images/mgDY1QE_gpxit4.png" alt="Smmpakpanel.com">
+                    </div>
+                    </li>
+                    <li class="single-payment">
+                         <div class="col-xl-4 col-lg-4 col-md-4  w-100">
+                         <img class="img-responsive" src="https://res.cloudinary.com/sol-0123456789/image/upload/v1661410570/sol_0129302930/images/gEBTBpL_y1dl1d.png" alt="Smmpakpanel.com">
+                    </div>
+                    </li>
+
+                  </div>
